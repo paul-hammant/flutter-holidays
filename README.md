@@ -1,16 +1,42 @@
 # holidays
 
-A new Flutter project.
+A single page application for displaying counties and holidays in these countries this app uses [country API](https://api.printful.com/countries) to get all countries name and countries codes then the app will pass they selected country code to [Holiday API](https://www.calendarindex.com/api/v1/holidays) to get all holidays for selected country.
 
-## Getting Started
+## Project run
+For building this project you must have flutter installed in your mahcine.
+## Flutter installation
++ **Windows** folow this [guid](https://flutter.io/docs/get-started/install/windows)
++ **macOS** folow this [guid](https://flutter.io/docs/get-started/install/macos)
++ **Linux** folow this [guid](https://flutter.io/docs/get-started/install/linux)
 
-This project is a starting point for a Flutter application.
+## Project building for android tablet
+to build this project do the following steps:
+1. open it in your favorite IDE.
+2. in terminal type `flutter packages get`.
+3. make sure you have connected android tablet.
+4. type ` flutter run ` to run it on the android tablet.
 
-A few resources to get you started if this is your first Flutter project:
+## Project building for Windows Desktop
+to build this project do the following steps:
+1. open it in your favorite IDE.
+2. in terminal type `flutter packages get`.
+3. in terminal type `flutter build bundle`.
+4. Download [Windows template](https://github.com/marceloneppel/flutter-desktop-template/releases/download/1.1.0/flutter-desktop-template-darwin-x64.zip).
+5. unzipe the template.
+6. modifiy `config.json` by changing the value of the parameters according to the information of your environment and application. `FlutterPath`: directory of your Flutter installation. `FlutterProjectPath`: your project  directory. `IconPath`: path to the desktop application icon file. `ScreenHeight`: initial screen height of the desktop application. `ScreenWidth`: initial screen width of the desktop application. Use double backslashes (\\) instead of simple ones (\) in directory paths if you are using Windows.
+7. run `flutter-desktop-template.exe`
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Project building for macOS
+to build this project do the following steps:
+1. open it in your favorite IDE.
+2. in terminal type `flutter packages get`.
+3. in terminal type `flutter build bundle`.
+4. Download [macOS template](https://github.com/Drakirus/go-flutter-desktop-embedder/releases/download/v0.3.0-alpha/stocks-example-GoFlutter_OSX.zip).
+5. unzipe the template.
+6. modifiy `config.json` by changing the value of the parameters according to the information of your environment and application. `FlutterPath`: directory of your Flutter installation. `FlutterProjectPath`: your project  directory. `IconPath`: path to the desktop application icon file. `ScreenHeight`: initial screen height of the desktop application. `ScreenWidth`: initial screen width of the desktop application. Use double backslashes (\\) instead of simple ones (\) in directory paths if you are using Windows.
+7. run `flutter-desktop-template.exe`
+
+
+
+
